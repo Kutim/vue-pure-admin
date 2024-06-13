@@ -176,9 +176,6 @@ importers:
       vuedraggable:
         specifier: ^4.1.0
         version: 4.1.0(vue@3.4.27(typescript@5.4.5))
-      vxe-table:
-        specifier: ^4.6.17
-        version: 4.6.17(vue@3.4.27(typescript@5.4.5))
       wavesurfer.js:
         specifier: ^7.7.15
         version: 7.7.15
@@ -2501,9 +2498,6 @@ packages:
 
   dom-serializer@2.0.0:
     resolution: {integrity: sha512-wIkAryiqt/nV5EQKqQpo3SToSOV9J0DnbJqwK7Wv/Trc92zIAYZ4FlMu+JPFW1DfGFt81ZTCGgDEabffXeLyJg==}
-
-  dom-zindex@1.0.4:
-    resolution: {integrity: sha512-PNk7u71TJ1C9Lwjjp5nNuQcVWuECFMmr9kZAwi2UbgWUM7jXdTCe4O4x5bhLUa07jpcZUVA5Du3ho7/FXzS9Ng==}
 
   dom7@3.0.0:
     resolution: {integrity: sha512-oNlcUdHsC4zb7Msx7JN3K0Nro1dzJ48knvBOnDPKJ2GV9wl1i5vydJZUSyOfrkKFDZEud/jBsTk92S/VGSAe/g==}
@@ -5332,11 +5326,6 @@ packages:
     peerDependencies:
       vue: ^3.0.1
 
-  vxe-table@4.6.17:
-    resolution: {integrity: sha512-K9A0qJuV33Xh2NK6L1tXXEXueGyOoRVz7eFvFFpTbLVtm3oCoYl6+BOqD6YTw70R8NKdZZNH+ylmEJug+Qjrrg==}
-    peerDependencies:
-      vue: ^3.2.28
-
   w3c-hr-time@1.0.2:
     resolution: {integrity: sha512-z8P5DvDNjKDoFIHK7q8r8lackT6l+jo/Ye3HOle7l9nICP9lf1Ci25fy9vHd0JOWewkIFzXIEig3TdKT7JQ5fQ==}
     deprecated: Use your platform's native performance.now() and performance.timeOrigin.
@@ -5453,9 +5442,6 @@ packages:
         optional: true
       utf-8-validate:
         optional: true
-
-  xe-utils@3.5.26:
-    resolution: {integrity: sha512-u9R7RqWDumamToEelrCv2nVA2PBJSPPUubvmiMcuHeFxwbYeBsouoi/opejmr7AdPlSj92FifF7IKFzFrczU7w==}
 
   xgplayer-subtitles@3.0.18:
     resolution: {integrity: sha512-8xGt3RB1FIu7393Qmfejd9f2JMogEzHjjxv+mzskWHmfT7N9X1xm6JmwCVnfMQXhKZSTtZsinEGCl1VqRjkE1g==}
@@ -7972,8 +7958,6 @@ snapshots:
       domelementtype: 2.3.0
       domhandler: 5.0.3
       entities: 4.5.0
-
-  dom-zindex@1.0.4: {}
 
   dom7@3.0.0:
     dependencies:
@@ -11178,12 +11162,6 @@ snapshots:
       sortablejs: 1.14.0
       vue: 3.4.27(typescript@5.4.5)
 
-  vxe-table@4.6.17(vue@3.4.27(typescript@5.4.5)):
-    dependencies:
-      dom-zindex: 1.0.4
-      vue: 3.4.27(typescript@5.4.5)
-      xe-utils: 3.5.26
-
   w3c-hr-time@1.0.2:
     dependencies:
       browser-process-hrtime: 1.0.0
@@ -11293,8 +11271,6 @@ snapshots:
       signal-exit: 4.1.0
 
   ws@7.5.9: {}
-
-  xe-utils@3.5.26: {}
 
   xgplayer-subtitles@3.0.18(core-js@3.37.1):
     dependencies:
